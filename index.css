@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+#contact {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact img {
+    height: 50px;
+}
+
+#nav {
+    display: flex;
+    background-color:#1fd6d6;
+    box-shadow: 0 0 10px #333;
+    align-items: center;
+    
+}
+
+
+#nav img {
+    height:70px;
+    width: 70px;
+    padding: 16px;
+}
+
+#nav ul {
+    display: flex;
+    text-align: right;
+}
+
+#nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 5px 30px;
+    padding: 12px;
+
+    
+}
+
+#nav ul li a {
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 6px;
+    margin: 8px;
+    color: #333;
+    font-family: "Lexend",sans-serif;
+}
+
+#nav ul li a:hover {
+    
+    background-color:#333;
+    color: #fff;
+    box-shadow: 0 0 5px #333;
+    transition: 0.2s ease;
+}
+.butt{
+    background-color:#fff;
+    font-family: 'Lexend', sans-serif;
+    padding: 4px;
+    color: red;
+    margin-top:5px;
+    margin-left: 410px;
+    border-radius: 6px;
+    border: none;
+    
+
+}
+.butt:hover{
+    background-color:#333;
+    color: #fff;
+    box-shadow: 0 0 5px #333;
+    transition: 0.2s ease;
+}
+
+
+#home{
+    display: flex;
+    height: 660px;
+}
+
+#home::before{
+    content: "";
+    background-image: url("healthyfamily.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 680px;   /*580px*/
+    width: 100%;
+    z-index: -1;
+}
+
+
+#intro{
+ 
+    display: flex;
+    flex-direction: column;
+margin: 34px;
+margin-top: 100px;
+margin-left: 50px;
+}
+#intro p{
+    font-size: 1.8rem;
+   padding: 34px 0;
+    font-weight: 600;
+    color:#333;
+}
+.button{
+    margin-left: 100px;
+margin-top: 50px;
+    color: red;
+    background-color:#fff;
+    font-family: 'Lexend', sans-serif;
+    padding: 4px;
+    border-radius: 6px;
+    padding:4px 16px;
+    border: none;
+}
+.button:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#loginform{
+    width: 80%;
+}
+
+
+.login{
+    margin-top: 150px;
+ margin-left: 250px;
+    width: 400px;
+    height: 360px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #333;
+}
+.login h1{
+    font-size:36px;
+    text-align: center;
+
+
+}
+.login .inputbox{
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+    position: relative;
+}
+
+.inputbox input{
+    width: 340px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 45px 20px 20px;
+}
+.inputbox input::placeholder{
+    color: #333;
+
+}
+.inputbox i{
+    position:absolute;
+    color: #1fd6d6;
+    left: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.forgot{
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+margin: -15px 0 15px;
+}
+.forgot label input{
+    accent-color: #333;
+    margin-right: 4px;
+}
+.forgot a{
+    color:#1fd6d6;
+    text-decoration: none;
+}
+.forgot a:hover{
+    text-decoration:underline;
+    color: red;
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color: #1fd6d6;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.btn:hover{
+    background-color: #fff;
+    transition: 0.2s ease;
+}
+.register{
+    font-size: 14px;
+    text-align: center;
+    margin:20px 0 15px;
+}
+.register p a{
+    color: #1fd6d6;
+    text-decoration: none;
+    font-weight:500;
+
+}
+.register p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#advantages{
+    height: 500px;
+}
+#advantage {
+    margin: 0px 20px;
+    display: flex;
+   
+}
+#advantage .box {
+background-color: rgb(236, 236, 236);
+    margin: 20px 20px;
+    padding: 40px;
+}
+#advantage .box:hover {
+box-shadow: 0 0 10px #1fd6d6;
+transition: 0.3s ease;
+
+}
+
+#advantage .box img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+
+}
+
+#advantage .box p {
+    font-family: 'Gowun Dodum', sans-serif;
+    color:#333;
+}
+
+#facilities{
+    height: 500px;
+}
+
+#facility{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#facility img{
+    width: 350px;
+    height: 250px;
+    padding:10px;
+    margin:0 20px;
+}
+.imgbox{
+     margin: 10px 15px;
+    padding: 15px;
+    
+}
+#centres{
+    display: flex;
+    height: 400px;
+    background-color: #1fd6d6;
+}
+
+
+.contactbox{
+    padding: 12px;
+    margin: 50px;
+
+}
+.contactbox p{
+    padding: 5px;
+    color: #fff;
+    font-family: 'Lexend',sans-serif;
+    
+}
+.contactbox span{
+    font-weight: bold;
+    font-family: 'Lexend',sans-serif;
+    color:#80669d;
+    
+}
+
+.infobox{
+    padding: 12px;
+    margin: 50px;
+}
+.infobox p{
+    font-family: 'Lexend',sans-serif;
+    padding: 5px;
+    color: #fff;
+}
+.timings{
+    padding: 12px;
+    margin: 50px;
+}
+.timings p{
+    font-family: 'Lexend',sans-serif;
+    padding: 5px;
+    color: #fff;
+}
+/* Utility classes */
+.h-primary{
+    font-size: 3rem;
+    color:#1fd6d6;
+}
+
+.h-secondary {
+    color: #1fd6d6;
+    font-size: 2rem;
+    padding: 30px;
+    font-family: 'Lexend',sans-serif;
+    text-align: center;
+
+
+}
+.footer{
+display: flex;
+justify-content: center;
+background-color: #333;
+color: #fff;
+font-family: "lexend",sans-serif;
+font-size: 0.9rem;
+}
+.h-secondary2 {
+    color: #333;
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Lexend',sans-serif;
+    text-align: center;
+
+
+}
+.h-tertiary{
+    color: #1fd6d6;
+    font-size: 2rem;
+    padding: 20px;
+    font-family: 'Lexend',sans-serif;
+    text-align: center;
+}
+.h-tertiary2{
+    color: #333;
+    font-size: 1.2rem;
+    padding: 2px;
+    font-family: 'Lexend',sans-serif;
+    text-align: center;
+}
+.h-end{
+    color: #333;
+    font-size: 1.1rem;
+}
